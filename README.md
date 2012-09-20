@@ -3,18 +3,18 @@ g2.raphael
 
 Alternative graphing module for Raphael.js
 
-== Work in progress ==
+# Work in progress
 
 This is a work in progress. Come back later to find it more complete.
 
-== Introduction ==
+## Introduction
 
 Raphael.js is an impressive library, but the official graphing module for it isn't nearly as complete.
 This is an alternative graphing library, providing the same graph types as well as a number of others.
 
 It uses data attributes to convey both the data and the extra parameters needed to render a graph.
 
-== How to use ==
+## How to use
 
 You will need:
 
@@ -22,7 +22,7 @@ You will need:
 * [Underscore.js](http://underscorejs.org/)
 * [Raphael.js](http://raphaeljs.com/)
 
-=== HTML ===
+### HTML
 
 Create an HTML element with data attributes:
 
@@ -36,7 +36,7 @@ Create an HTML element with data attributes:
 
 The contents of the element will be displayed until the graph is loaded, so that's a good place to put a loading indicator.
 
-=== Javascript ===
+### Javascript
 
 When you're ready (I suggest using `$(document).ready`), call `g2` on a jQuery selection.
 
