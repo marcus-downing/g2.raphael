@@ -3,6 +3,10 @@ g2.raphael
 
 Alternative graphing module for Raphael.js
 
+== Work in progress ==
+
+This is a work in progress. Come back later to find it more complete.
+
 == Introduction ==
 
 Raphael.js is an impressive library, but the official graphing module for it isn't nearly as complete.
